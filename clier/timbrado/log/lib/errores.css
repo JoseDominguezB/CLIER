@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Sans-Serif;
+    color:#333;
+}
+table{
+    border:none;
+    font-size:12px;
+}
+td{
+    padding-left:15px;
+    padding-right:15px;
+}
+.fecha{
+    background:#333;
+    color:#FFFFFF;
+    font-weight:bold; }
+.error{
+    background:#FFFFFF;
+    color:#333;
+    padding:10px }
+.detalle_error_box{
+    background:#F0F0F0;
+    color:#333;
+    padding:10px }
+.detalle_error{ }
+
+.detalle_error_java{
+    font-size:10px;
+    background:#FFFFFF;
+    color:#333;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;
+    padding-bottom:2px; }
+.nombre {
+    font-size:11px;
+    font-weight:bold;
+    padding:5px;
+}
+A:link { text-decoration: none; color:#333; }
+A:visited { text-decoration: none; color:#039; }
+A:active { text-decoration: none; color:#333; }
+A:hover { text-decoration: none; color: #FFF; }
+.titulo { background-image:url(http://b1-soft.com/tutorial/img/blue_header.jpg);
+          background-repeat:no-repeat; background-attachment:fixed; color:#039; width:100%; }
+.header { font-family: Tahoma, Arial, Sans-Serif; font-weight:bold; font-size:24px; padding:5px; color:#039; } 
+.history {
+    list-style: none;
+    font-size:14px;
+    font-weight:bold;
+    padding:10px;
+    border: solid 1pt #999999;
+    background: #cccccc;
+    margin: 10px;
+}
+.history:hover {
+    border: solid 1pt #000;
+    background: #999999;
+}

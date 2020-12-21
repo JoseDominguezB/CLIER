@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Metro/2.1 (branches/2.1-6728; 2011-02-03T14:14:58+0000) JAXWS-RI/2.2.3 JAXWS/2.2. --><xs:schema xmlns:tns="http://servidor.b1soft.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://servidor.b1soft.com/">
+
+<xs:element name="Cancelar" type="tns:Cancelar" />
+
+<xs:element name="CancelarCfdi" type="tns:CancelarCfdi" />
+
+<xs:element name="CancelarCfdiResponse" type="tns:CancelarCfdiResponse" />
+
+<xs:element name="CancelarResponse" type="tns:CancelarResponse" />
+
+<xs:complexType name="Cancelar">
+<xs:sequence>
+<xs:element name="identificador" type="xs:string" minOccurs="0" />
+<xs:element name="xmlCancelacion" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="CancelarResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:cancelacionCfdi" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="cancelacionCfdi">
+<xs:sequence>
+<xs:element name="error" type="xs:boolean" />
+<xs:element name="codigoCancelacion" type="xs:string" minOccurs="0" />
+<xs:element name="resultadoCancelacion" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="CancelarCfdi">
+<xs:sequence>
+<xs:element name="identificador" type="xs:string" minOccurs="0" />
+<xs:element name="keystore" type="xs:base64Binary" nillable="true" minOccurs="0" />
+<xs:element name="passphrase" type="xs:string" minOccurs="0" />
+<xs:element name="xmlCancelacion" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="CancelarCfdiResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:cancelacionCfdi" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

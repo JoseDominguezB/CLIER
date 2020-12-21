@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:catPagos="http://www.sat.gob.mx/sitio_internet/cfd/catalogos/Pagos" xmlns:bisoft="http://b1-soft.com/addenda/estandar" xmlns:tdCFDI="http://www.sat.gob.mx/sitio_internet/cfd/tipoDatos/tdCFDI" xmlns:pago10="http://www.sat.gob.mx/Pagos" xmlns:catCFDI="http://www.sat.gob.mx/sitio_internet/cfd/catalogos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Fecha="2020-03-05T11:02:07" Folio="00134" LugarExpedicion="54160" Moneda="XXX" Serie="CV" SubTotal="0" TipoDeComprobante="P" Total="0" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+	<cfdi:Emisor Nombre="EMPRESA EMISORA" RegimenFiscal="601" Rfc="TME960709LR2"/>
+	<cfdi:Receptor Nombre="IECISA Mexico SA de CV" Rfc="IME0804097T3" UsoCFDI="P01"/>
+	<cfdi:Conceptos>
+		<cfdi:Concepto Cantidad="1" ClaveProdServ="84111506" ClaveUnidad="ACT" Descripcion="Pago" Importe="0" ValorUnitario="0"/>
+	</cfdi:Conceptos>
+	<cfdi:Complemento>
+		<pago10:Pagos Version="1.0">
+			<pago10:Pago FechaPago="2020-01-17T00:00:00" FormaDePagoP="03" MonedaP="MXN" Monto="3815718.05" NumOperacion="V-DZ-170120-05-17">
+				<pago10:DoctoRelacionado Folio="1342" IdDocumento="095055C4-7DA5-4B25-9BB7-DBB24F90D190" ImpPagado="202476.92" ImpSaldoAnt="203802.79" ImpSaldoInsoluto="1325.87" MetodoDePagoDR="PPD" MonedaDR="USD" NumParcialidad="1" Serie="A" TipoCambioDR="18.845199"/>
+			</pago10:Pago>
+		</pago10:Pagos>
+	</cfdi:Complemento>
+	<cfdi:Addenda>
+		<bisoft:Estandar>
+			<bisoft:ETENOTIF>
+				<bisoft:ENOTIF/>
+			</bisoft:ETENOTIF>
+		<bisoft:ETDUPLI><bisoft:DUPLI IdSucursal="25" NombreDocumento="CV_00134-V-DZ-170120-05-17_1342_V2.xml"/></bisoft:ETDUPLI></bisoft:Estandar>
+	</cfdi:Addenda>
+</cfdi:Comprobante>

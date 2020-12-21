@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/b1timbrado_cliente_servidor/TimbradoCfdi?wsdl" uri="xml-resources/web-service-references/TimbradoCfdi/wsdl/localhost_8080/b1timbrado_cliente_servidor/TimbradoCfdi.wsdl"/>
+    <system systemId="http://localhost:8080/b1timbrado_cliente_servidor/TimbradoCfdi?xsd=1" uri="xml-resources/web-service-references/TimbradoCfdi/wsdl/localhost_8080/b1timbrado_cliente_servidor/TimbradoCfdi.xsd_1.xsd"/>
+    <system systemId="http://201.156.18.141:8080/b1timbrado_cliente_servidor/TimbradoCfdi.asmx?WSDL" uri="xml-resources/web-service-references/TimbradoCfdi/wsdl/201.156.18.141_8080/b1timbrado_cliente_servidor/TimbradoCfdi.asmx.wsdl"/>
+    <system systemId="http://localhost:8282/b1cancelacion/CancelacionCfdi?wsdl" uri="xml-resources/web-service-references/CancelacionCfdi/wsdl/localhost_8282/b1cancelacion/CancelacionCfdi.wsdl"/>
+    <system systemId="http://localhost:8282/b1cancelacion/CancelacionCfdi?xsd=1" uri="xml-resources/web-service-references/CancelacionCfdi/wsdl/localhost_8282/b1cancelacion/CancelacionCfdi.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/b1timbre_compl_v4_0_4/TimbradoCfdi?wsdl" uri="xml-resources/web-service-references/TimbradoCfdi/wsdl/localhost_8080/b1timbre_compl_v4_0_4/TimbradoCfdi.wsdl"/>
+    <system systemId="http://localhost:8080/b1timbre_compl_v4_0_4/TimbradoCfdi?xsd=1" uri="xml-resources/web-service-references/TimbradoCfdi/wsdl/localhost_8080/b1timbre_compl_v4_0_4/TimbradoCfdi.xsd_1.xsd"/>
+</catalog>
